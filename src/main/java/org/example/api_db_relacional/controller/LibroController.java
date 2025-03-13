@@ -54,4 +54,9 @@ public class LibroController {
         }
     }
 
+    @DeleteMapping
+    public void deleteAllLibros() {
+        libroService.deleteAll();
+    }
+
 }

@@ -29,4 +29,6 @@ public class LibroService {
     public void deleteById(Long id) {
         libroRepository.deleteById(id);
     }
+
+    public void deleteAll() { libroRepository.deleteAll(); }
 }
